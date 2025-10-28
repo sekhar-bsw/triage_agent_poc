@@ -1,5 +1,5 @@
 
-from triage_agent_poc.models.models import DecisionSpec, TraitRule
+from models.models import DecisionSpec, TraitRule
 from typing import Dict, Optional
 
 def evaluate_rule(rule: TraitRule, data: Dict) -> bool:

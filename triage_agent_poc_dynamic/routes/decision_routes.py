@@ -1,7 +1,7 @@
 
 from fastapi import APIRouter, HTTPException
-from triage_agent_poc.models.models import DecisionSpec
-from triage_agent_poc.services.routing import simulate_routing
+from models.models import DecisionSpec
+from services.routing import simulate_routing
 import os, json
 
 router = APIRouter(prefix="/specs", tags=["Decision Specs"])
